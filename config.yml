@@ -1,0 +1,33 @@
+company:
+  cvc:
+    process:
+      Leave-Management:
+        total-steps: 4
+        step1:
+          leave-count: 
+            required: True
+        step2:
+          Manager-Approval:
+            required: True
+        step3:
+          HR-Approval:
+            required: True
+        step4:
+          send-Email:
+            required: True
+  gvc:
+    process:
+      Leave-Management:
+        total-steps: 4
+        step1:
+          leave-count: 
+            required: True
+        step2:
+          Manager-Approval:
+            required: False
+        step3:
+          HR-Approval:
+            required: True
+        step4:
+          send-Email:
+            required: False
